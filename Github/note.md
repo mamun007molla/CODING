@@ -16,4 +16,6 @@
 - Backup
   - in case system or the disk of the user breaks down and there is no backup all the files will be lost hence version control system should be used.
 
-# What is GIT?
+# top probelm that we face
+- path mistake
+- forget to use proper instruction(git add . then git commit -m "meaning full thing" then git push)
