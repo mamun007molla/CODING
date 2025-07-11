@@ -3,9 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>auto</title>
+    <style>
+        .container{
+            background-color: brown;
+        }
+        .content{
+            background-color: black;
+            color: aliceblue;
+            max-width: 540px;
+            font-size: 2em;
+            margin: 0 auto;
+
+        }
+        nav ul{
+            display: flex;
+        }
+        nav li{
+            list-style: none;
+            margin-right: 20px;
+        }
+        nav li:hover{
+            background-color: yellow;
+            color: brown;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="module4_1.html">module4_1</a></li>
+                <li><a href="module4_3(form).html">module4_3</a></li>
+                <li><a href="module4_4(table).html">module4_4</a></li>
+                <li><a href="module4_5(flexbox).html">module4_5</a></li>
+                <li><a href="module4_6(flex-center).html">module4_6</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+        <div class="content">
+            <h2>My website</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, cupiditate.</p>
+        </div>
+    </div>
+    </main>
 </body>
 </html>
