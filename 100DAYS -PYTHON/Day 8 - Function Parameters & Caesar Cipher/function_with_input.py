@@ -95,11 +95,11 @@ functionName(param2=aug2,param1=aug1,..paramn=augn)
 
 '''
 
-def greet_with(name,location):
-    print(f"Hello {name}\nWhat is it like in {location}")
+# def greet_with(name,location):
+#     print(f"Hello {name}\nWhat is it like in {location}")
 
-greet_with(name="MAMUN",location="KUDDUSNAGAR,KONABARI,GAZIPUR")
-greet_with(location="KUDDUSNAGAR,KONABARI,GAZIPUR",name="MAMUN")
+# greet_with(name="MAMUN",location="KUDDUSNAGAR,KONABARI,GAZIPUR")
+# greet_with(location="KUDDUSNAGAR,KONABARI,GAZIPUR",name="MAMUN")
 
 
 
